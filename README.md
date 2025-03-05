@@ -13,4 +13,4 @@ A simple and elegant web page built using **HTML** and **Bootstrap** to explore 
 Simply open `index.html` in a browser to view the web page.  
 
 ## Live Demo:
-
+https://shoe-bt2-sk.netlify.app/
