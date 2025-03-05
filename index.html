@@ -11,19 +11,34 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Shoe Website</title>
   <style>
-    .gradient{
-      background: #200122;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    .gradient {
+      background: #200122;
+      /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #6f0000, #200122);
+      /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #6f0000, #200122);
+      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     }
-    .box{
+
+    .box {
       width: 50%;
     }
-    .nti{
-        background-color: rgb(228, 228, 228);
-        color: rgb(157, 157, 157);
-      }
+    .box:hover{
+      cursor: pointer;
+    }
+    .nav-item:hover {
+      cursor: pointer;
+    }
+
+    .nti {
+      background-color: rgb(228, 228, 228);
+      color: rgb(157, 157, 157);
+    }
+
+    .search {
+      cursor: pointer;
+    }
   </style>
 </head>
 
@@ -32,8 +47,9 @@ background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, F
   <nav class="navbar navbar-expand-lg bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand  text-light" href="#">URBAN STRIDE</a>
-      <button class="navbar-toggler btn-outline-light nti" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler btn-outline-light nti" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -45,7 +61,8 @@ background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, F
             <a class="nav-link text-light" href="#">Offers</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
               Brands
             </a>
             <ul class="dropdown-menu">
@@ -70,7 +87,8 @@ background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, F
   </nav>
 
   <!-- section2 -->
-  <div class="container-fluid d-flex justify-content-center align-items-center flex-column flex-lg-row flex-md-column flex-sm-column  p-5">
+  <div
+    class="container-fluid d-flex justify-content-center align-items-center flex-column flex-lg-row flex-md-column flex-sm-column  p-5">
     <div class="left">
       <img src="shoe.png" alt="" width="500px">
     </div>
@@ -83,43 +101,44 @@ background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, F
   </div>
 
   <!-- section3 -->
-  <div class="container-fluid  gradient  d-flex justify-content-center align-items-center flex-lg-row flex-md-column flex-sm-column flex-column">
+  <div
+    class="container-fluid  gradient  d-flex justify-content-center align-items-center flex-lg-row flex-md-column flex-sm-column flex-column">
 
     <div class=" container left2 d-flex justify-content-center align-items-center flex-column">
-        <div class="box bg-light d-flex justify-content-start align-items-center p-1 rounded m-2">
-            <i class="fa-solid fa-house fs-1 mx-1"></i>
-            <div class=" d-flex justify-content-start align-items-center flex-column">
+      <div class="box bg-light d-flex justify-content-start align-items-center p-1 rounded m-2">
+        <i class="fa-solid fa-house fs-1 mx-1"></i>
+        <div class=" d-flex justify-content-start align-items-center flex-column">
 
-                <h3>Step Into the Perfect Pair</h2>
-                    <p>Where Style Meets Comfort for Every Journey!</p>
+          <h3>Step Into the Perfect Pair</h2>
+            <p>Where Style Meets Comfort for Every Journey!</p>
 
-            </div>
         </div>
-        <div class="box bg-light d-flex justify-content-start align-items-center p-1 rounded m-1">
-            <i class="fa-solid fa-house fs-1 mx-1"></i>
-            <div class=" d-flex justify-content-start align-items-center flex-column">
+      </div>
+      <div class="box bg-light d-flex justify-content-start align-items-center p-1 rounded m-1">
+        <i class="fa-solid fa-house fs-1 mx-1"></i>
+        <div class=" d-flex justify-content-start align-items-center flex-column">
 
-                <h3>Step Into the Perfect Pair</h2>
-                    <p>Where Style Meets Comfort for Every Journey!</p>
+          <h3>Step Into the Perfect Pair</h2>
+            <p>Where Style Meets Comfort for Every Journey!</p>
 
-            </div>
         </div>
-        <div class="box bg-light d-flex justify-content-start align-items-center p-1 rounded m-2">
-            <i class="fa-solid fa-house fs-1 mx-1"></i>
-            <div class=" d-flex justify-content-start align-items-center flex-column">
+      </div>
+      <div class="box bg-light d-flex justify-content-start align-items-center p-1 rounded m-2">
+        <i class="fa-solid fa-house fs-1 mx-1"></i>
+        <div class=" d-flex justify-content-start align-items-center flex-column">
 
-                <h3>Step Into the Perfect Pair</h2>
-                    <p>Where Style Meets Comfort for Every Journey!</p>
+          <h3>Step Into the Perfect Pair</h2>
+            <p>Where Style Meets Comfort for Every Journey!</p>
 
-            </div>
         </div>
+      </div>
 
 
     </div>
     <div class="right2">
-        <img src="sec-2.png"  width="400px">
+      <img src="sec-2.png" width="400px">
     </div>
-</div>
+  </div>
 
   <!-- section4 -->
   <div class="container p-5 ">
@@ -167,7 +186,8 @@ background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, F
   <!-- section5 -->
   <div class="container-fluid text-center p-5">
     <u class="fw-bolder fs-1">OUR TEAM</u>
-    <div class="d-flex justify-content-center align-items-center gap-5 flex-lg-row flex-md-column flex-sm-column flex-column">
+    <div
+      class="d-flex justify-content-center align-items-center gap-5 flex-lg-row flex-md-column flex-sm-column flex-column">
       <div class="card p-2 bg-dark text-light" style="width: 18rem;">
         <img src="person1.jpg" class="card-img-top rounded rounded-circle" alt="...">
         <div class="card-body">
@@ -196,13 +216,14 @@ background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, F
   <div class="container shadow-lg border-top p-4 my-4 d-flex justify-content-center align-items-center flex-column">
     <h3>SUBSCIBE TO OUR NEWS CHANNEL</h3>
     <div class="input-group mb-3">
-       <input type="text" class="form-control" placeholder="Find Your Perfect Pair" aria-label="Recipient's username" aria-describedby="basic-addon2">
-       <span class="input-group-text" id="basic-addon2">Search</span>
-     </div>
- </div>
- <!-- section-7 -->
+      <input type="text" class="form-control" placeholder="Find Your Perfect Pair" aria-label="Recipient's username"
+        aria-describedby="basic-addon2">
+      <span class="input-group-text search" id="basic-addon2">Search</span>
+    </div>
+  </div>
+  <!-- section-7 -->
   <footer class="gradient text-center p-1 text-light">
-   <h4>@SNIST FSAA || ALL RIGHTS RESERVED</h4>
+    <h4>@SNIST FSAA || ALL RIGHTS RESERVED</h4>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
